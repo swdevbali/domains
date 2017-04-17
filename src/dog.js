@@ -1,11 +1,11 @@
 class Dog {
   constructor(name) {
-    this.name = name;
+    this.name = name
   }
 
   bark() {
-    return `Guk guk! dari ${this.name}`;
+    return `Guk guk! dari ${this.name}`
   }
 }
 
-module.exports = Dog;
+module.exports = Dog
