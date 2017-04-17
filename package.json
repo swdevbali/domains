@@ -5,8 +5,6 @@
   "scripts": {
     "start": "babel-node src",
     "test": "eslint src",
-    "precommit": "npm test",
-    "prepush": "npm test"
   },
   "dependencies": {},
   "devDependencies": {
@@ -25,5 +23,6 @@
     "flow-bin": "^0.41.0",
     "husky": "^0.13.2",
     "jest": "^19.0.2"
-  }
+  },
+  "browserslist": ["> 1%"],
 }
