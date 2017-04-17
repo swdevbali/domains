@@ -1,8 +1,11 @@
 {
-    "name": "Domains",
-    "version": "1.0.0",
-    "license": "MIT",
-    "scripts": {
-        "start": "node ."
-    }
+  "name": "Domains",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "color": "^1.0.3"
+  }
 }
