@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src/server",
+    "start": "npm run dev:start",
     "test": "eslint src && flow && jest --coverage",
+    "dev:start": "nodemon --ignore lib --exec babel-node src/server",
     "precommit": "npm test",
     "prepush": "npm test"
   },
