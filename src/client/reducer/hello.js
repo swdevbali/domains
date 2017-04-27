@@ -4,7 +4,8 @@ import type { fromJS as Immut} from 'immutable'
 import { SAY_HELLO } from '../action/hello'
 
 const initialState = Immutable.fromJS({
-  message: 'Initial message',
+    message: 'Status awal pesan ini',
+    name: 'Nama awalmu',
 })
 
 const helloReducer = (state: Immut = initialState, action: {type: string, payload: any }) => {

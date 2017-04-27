@@ -3,10 +3,14 @@
 import React from 'react'
 
 type Props = {
-  message: string,
+    message: string,
+    name: string,
 }
 
-const Message = ({ message }: Props) =>
-  <p>{message}</p>
+const Message = ({ message, name }: Props) =>
+      <div>
+      <p>{message}</p>
+      <p>by {name}</p>
+      </div>
 
 export default Message
