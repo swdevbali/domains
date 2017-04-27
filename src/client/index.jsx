@@ -18,10 +18,10 @@ const store = createStore(combineReducers({hello: helloReducer}),
 const rootEl = document.querySelector(APP_CONTAINER_SELECTOR)
 const wrapApp = (AppComponent, reduxStore) =>
       <Provider store={reduxStore}>
-  <AppContainer>
-    <AppComponent/>
-      </AppContainer>
-    </Provider>
+          <AppContainer>
+              <AppComponent/>
+          </AppContainer>
+      </Provider>
 
 
 ReactDOM.render(wrapApp(App, store), rootEl)
