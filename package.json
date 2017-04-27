@@ -1,7 +1,7 @@
 {
   "name": "Domains",
   "version": "1.0.0",
-  "license": "MIT",
+    "license": "MIT",
   "scripts": {
     "start": "npm run dev:start",
     "dev:start": "nodemon -e js,jsx --ignore lib --ignore dist --exec babel-node src/server",
