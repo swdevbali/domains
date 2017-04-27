@@ -8,7 +8,7 @@ const mapStateToProps = () => ({
 })
 
 
-const mapDispatchToProps =  dispatch => ({
+const mapDispatchToProps = dispatch => ({
     handleClick: () => { dispatch(sayHello('Mau diganti message ke apa inih?')) },
 })
 
