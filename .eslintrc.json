@@ -1,20 +1,23 @@
 {
-  "extends": [
-    "airbnb",
-    "plugin:flowtype/recommended"
-  ],
-  "plugins": [
-    "flowtype",
-    "compat"
-  ],
-  "rules": {
-    "semi": [2, "never"],
-    "no-unexpected-multiline": 2,
-    "compat/compat": 2,
-    "indent": ["error", 4]
-  },
-  "env": {
-    "jest": true,
-    "browser": true
-  }
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+        "flowtype",
+        "compat"
+    ],
+    "rules": {
+        "semi": [2, "never"],
+        "no-unexpected-multiline": 2,
+        "compat/compat": 2,
+        "indent": ["error", 4]
+    },
+    "env": {
+        "jest": true,
+        "browser": true
+    },
+    "settings": {
+        "pollyfills": ["fetch"]
+    },
 }
