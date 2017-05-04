@@ -23,7 +23,7 @@ const helloReducer = (state: Immut = initialState, action: {type: string, payloa
     case SAY_HELLO_ASYNC_SUCCESS:
         return state.set('messageAsync': action.payload)
     case SAY_HELLO_ASYNC_FAILURE:
-        return state.set('messageAsynch': 'No message received, connection maybe broken')
+        return state.set('messageAsync': 'No message received, connection maybe broken')
     default:
         return state
     }

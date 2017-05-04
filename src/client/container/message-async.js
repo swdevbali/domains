@@ -1,4 +1,4 @@
-import { connect } from 'react-readux'
+import { connect } from 'react-redux'
 import { MessageAsync } from '../component/message'
 
 const mapStateToProps = state => ({
