@@ -3,7 +3,7 @@
 import { connect } from 'react-redux'
 
 import { sayHelloAsync } from '../action/hello'
-import { Button } from '../component/button' 
+import Button from '../component/button' 
 
 const mapStateToProps = (state) => {
     return {
