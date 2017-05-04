@@ -9,8 +9,7 @@ type Props = {
 
 const Message = ({ message, name }: Props) =>
       <div>
-      <p>{message}</p>
-      <p>by {name}</p>
+      <p>{message} by {name}</p>
       </div>
 
 export default Message
