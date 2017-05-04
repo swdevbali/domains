@@ -8,7 +8,7 @@ export const SAY_HELLO_ASYNC_FAILURE = 'SAY_HELLO_ASYNC_FAILURE'
 
 export const sayHello = createAction(SAY_HELLO)
 export const sayHelloAsyncRequest = createAction(SAY_HELLO_ASYNC_REQUEST)
-export const tsayHelloAsyncSuccess = createAction(SAY_HELLO_ASYNC_SUCCESS)
+export const sayHelloAsyncSuccess = createAction(SAY_HELLO_ASYNC_SUCCESS)
 export const sayHelloAsyncFailure = createAction(SAY_HELLO_ASYNC_FAILURE)
 
 export const sayHelloAsync = (num: number) => (dispatch: Function) => {
