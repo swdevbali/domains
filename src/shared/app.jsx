@@ -13,13 +13,13 @@ import {
     HOME_PAGE_ROUTE,
     HELLO_PAGE_ROUTE,
     HELLO_ASYNC_PAGE_ROUTE,
-} from '../shared/routes'
+} from './routes'
 
 import HelloButton from './container/hello-button'
 import HelloAsyncButton from './container/hello-async-button'
 import Message from './container/message'
 import MessageAsync from './container/message-async'
-import { APP_NAME } from '../shared/config'
+import { APP_NAME } from './config'
 
 const App = () =>
       <div>
