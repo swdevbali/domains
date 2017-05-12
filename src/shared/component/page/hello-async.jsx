@@ -8,7 +8,7 @@ import MessageAsync from '../../container/message-async'
 const title = 'Async Hello Page'
 
 const HelloAsyncPage = () =>
-      <div>
+      <div className="container mt-4">
       <Helmet
             title={title}
                   meta={[
@@ -16,9 +16,13 @@ const HelloAsyncPage = () =>
                                   { property: 'og:title', content: title },
                                         ]}
                                             />
-                                                <h1>{title}</h1>
+    <div classname="row">
+    <div classname="col-12">
+    <h1>{title}</h1>
       <MessageAsync />
       <HelloAsyncButton />
+    </div>
+    </div>
       </div>
 
 export default HelloAsyncPage
